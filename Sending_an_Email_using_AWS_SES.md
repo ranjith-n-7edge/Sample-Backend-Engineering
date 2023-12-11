@@ -6,6 +6,7 @@ When constructing backend systems, the common requirement arises to programmatic
 
 ```bash
 npm install aws-sdk
+```
 
 ## Step 2: Create IAM role with below mentioned policy and attach it to the Lambda function or EC2 machine.
 
@@ -27,7 +28,7 @@ npm install aws-sdk
     }
   ]
 }
-
+```
 
 ## Step 3: Use the below script to 
 
@@ -59,4 +60,4 @@ s3.upload(uploadParams, (err, data) => {
   }
 });
 
-
+```
