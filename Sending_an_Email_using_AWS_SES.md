@@ -2,13 +2,13 @@
 
 When constructing backend systems, the common requirement arises to programmatically send transactional emails to customers or users within internal applications. This solution utilizes AWS Simple Email Service (SES) to dispatch transactional emails to designated email addresses.
 
-## Step 1: Install aws-sdk in your environment
+### Step 1: Install aws-sdk in your environment
 
 ```bash
 npm install aws-sdk
 ```
 
-## Step 2: Create IAM role with below mentioned policy and attach it to the Lambda function or EC2 machine.
+### Step 2: Create IAM role with below mentioned policy and attach it to the Lambda function or EC2 machine.
 
 ```json
 {
@@ -30,7 +30,7 @@ npm install aws-sdk
 }
 ```
 
-## Step 3: Use the below script to 
+### Step 3: Use the below script to 
 
 ```javascript
 const AWS = require('aws-sdk');
