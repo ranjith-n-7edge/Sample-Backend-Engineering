@@ -6,6 +6,6 @@ We as members, contributors, and leaders pledge to make participation in our com
 
 # Table of contents
 
-  - Sending an Email using AWS SES
+  - [Sending an Email using AWS SES] (Sending_an_Email_using_AWS_SES.md)
   - Attaching a File to Email using AWS SES
   - Generating Pre-Signed URL for an Object in S3
